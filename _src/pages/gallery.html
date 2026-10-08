@@ -1,0 +1,37 @@
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <div class="page-hero__inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Gallery</span></nav>
+          <span class="eyebrow">Gallery</span>
+          <h1 id="page-title">Moments at Saffron Table</h1>
+          <p>A glimpse of our food, ambience and dining experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark-2" aria-label="Photo gallery">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filter photos" data-filter-group="gallery">
+        [[gallery-filters]]
+        </div>
+        <p class="sr-only" role="status" aria-live="polite" data-filter-status></p>
+        <div class="masonry" data-filter-items data-gallery>[[gallery]]
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" data-lightbox inert>
+      <div class="lightbox__bar">
+        <span class="lightbox__count" data-lb-count>01 / 12</span>
+        <button class="icon-btn" type="button" aria-label="Close photo viewer" data-lb-close>[[icon:close]]</button>
+      </div>
+      <div class="lightbox__stage">
+        <img class="lightbox__img" src="" alt="" data-lb-img>
+        <button class="icon-btn lightbox__prev" type="button" aria-label="Previous photo" data-lb-prev>[[icon:prev]]</button>
+        <button class="icon-btn lightbox__next" type="button" aria-label="Next photo" data-lb-next>[[icon:next]]</button>
+      </div>
+      <div class="lightbox__caption">
+        <strong data-lb-caption></strong>
+        <span data-lb-label></span>
+      </div>
+    </div>

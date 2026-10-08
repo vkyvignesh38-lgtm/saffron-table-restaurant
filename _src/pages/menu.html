@@ -1,0 +1,44 @@
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <div class="page-hero__inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Menu</span></nav>
+          <span class="eyebrow">Our menu</span>
+          <h1 id="page-title">Delicious Food for Every Taste</h1>
+          <p>Explore our selection of authentic South Indian dishes made with love and tradition.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--ivory" aria-label="Menu items">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filter menu by category" data-filter-group="menu">
+        [[menu-filters]]
+        </div>
+        <p class="sr-only" role="status" aria-live="polite" data-filter-status></p>
+        <div class="dish-grid dish-grid--3" data-filter-items>[[menu]]
+        </div>
+
+        <div class="menu-note">
+          <div class="menu-note__legend">
+            <span class="diet diet--veg"><span class="diet__mark" aria-hidden="true"></span>Vegetarian</span>
+            <span class="diet diet--nonveg"><span class="diet__mark" aria-hidden="true"></span>Non-vegetarian</span>
+            <span class="spice" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></span><span>Spice level</span>
+          </div>
+          <p>All prices in Indian Rupees. Please tell our team about any allergies before you order.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      [[img:curry-spread|Curries and rice shared across the table|cta-band__bg]]
+      <div class="container">
+        <div class="cta-band__inner">
+          <span class="eyebrow">Hungry already?</span>
+          <h2 class="h2" id="cta-title">Book a table and taste it fresh.</h2>
+          <div class="cta-band__actions">
+            <a class="btn btn--gold" href="reservation.html">Reserve a Table</a>
+            <a class="btn btn--ghost" href="[[whatsapp]]" target="_blank" rel="noopener">[[icon:chat]]WhatsApp us</a>
+          </div>
+        </div>
+      </div>
+    </section>
